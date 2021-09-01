@@ -18,6 +18,7 @@
             android:layout_weight="1"
             android:hint="请输入要测试的URL"
             android:inputType="none"
+            android:text="content://com.android.providers.media.documents/document/video%3A2629"
             android:lines="2"
             android:visibility="visible" />
 

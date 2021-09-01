@@ -20,13 +20,17 @@ package tv.danmaku.ijk.media.example.fragments;
 import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 import androidx.loader.app.LoaderManager;
 import androidx.loader.content.Loader;
 import androidx.cursoradapter.widget.SimpleCursorAdapter;
@@ -38,7 +42,15 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import java.util.List;
+
+import ando.file.core.FileLogger;
+import ando.file.selector.FileSelectCallBack;
+import ando.file.selector.FileSelectOptions;
+import ando.file.selector.FileSelectResult;
+import ando.file.selector.FileSelector;
 import tv.danmaku.ijk.media.example.R;
 import tv.danmaku.ijk.media.example.activities.VideoActivity;
 import tv.danmaku.ijk.media.example.content.RecentMediaStorage;
@@ -49,6 +61,7 @@ import tv.danmaku.ijk.media.example.content.RecentMediaStorage;
 public class RecentMediaListFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor> {
     private static final String TAG = RecentMediaListFragment.class.getName();
     private ListView mFileListView;
+    private Uri uri;
     private AppCompatButton mPlayerPath;
     private EditText pathView;
     private AppCompatImageView picSelect;
@@ -74,10 +87,28 @@ public class RecentMediaListFragment extends Fragment implements LoaderManager.L
         super.onViewCreated(view, savedInstanceState);
 
         final Activity activity = getActivity();
+
         picSelect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                FileSelector.Companion.with(activity)
+                        .setMimeTypes("video/*")
+                        .callback(new FileSelectCallBack() {
+                            @Override
+                            public void onSuccess(@Nullable List<FileSelectResult> list) {
+                                Log.d(TAG, "onSuccess: "+list.size());
+                                for (FileSelectResult result : list) {
+                                    uri = result.getUri();
+                                    pathView.setText(result.getUri().toString());
+                                }
+                            }
 
+                            @Override
+                            public void onError(@Nullable Throwable throwable) {
+                                Toast.makeText(activity,throwable.getMessage(),Toast.LENGTH_SHORT).show();
+                            }
+                        })
+                        .choose();
             }
         });
         mAdapter = new RecentMediaAdapter(activity);
