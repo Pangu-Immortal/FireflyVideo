@@ -9,3 +9,4 @@ rootProject.name = "VideoTools"
 include ':app'
 include ':ijkplayer-java'
 include ':ijkplayer'
+include ':easyPhotos'
