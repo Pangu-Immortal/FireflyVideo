@@ -1,13 +1,21 @@
 # FireflyVideo
 🔥在ijkplayer的基础上借鉴大量播放器内核优势进行封装
 
+火萤视频参数测试工具
+
+
+- 增加了本地视频的读取
+- 升级了ffmpeg版本
+- 升级了ExoPlayer版本
+
+
 **注🌈**：
 1. 该项目仅供学习和参考，在真机上已经全面测试。
 2. 对于自研轻量定制的 Android系统，对一些系统应用的编解码，这个方案还是很有优势的。资源占用少，用户无感知，成功率高。
 3. 可用于C端产品，不建议在2B产品上使用。
 4. 可作为学习音视频播放器框架的一个案例。
 
-## 🔗实现原理参考🍎
+## 🔗 实现原理参考🍎
 
 - [FFmpeg源码 ffplay](http://ffmpeg.org/)
 - [哔哩哔哩开源的 bilibili/ijkplayer](https://github.com/bilibili/ijkplayer)
