@@ -11,6 +11,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
+    <!-- 照片的位置信息 -->
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application>
         <activity
             android:name="tv.danmaku.ijk.media.example.activities.FileExplorerActivity"
@@ -67,6 +71,16 @@
             android:exported="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.qihao.easyphotos.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_public" />
+        </provider>
     </application>
 
 </manifest>

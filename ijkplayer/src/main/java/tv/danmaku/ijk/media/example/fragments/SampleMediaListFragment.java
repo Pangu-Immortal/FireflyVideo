@@ -43,8 +43,6 @@ import tv.danmaku.ijk.media.example.activities.VideoActivity;
  */
 public class SampleMediaListFragment extends Fragment {
     private ListView mFileListView;
-    private AppCompatButton mPlayerPath;
-    private EditText pathView;
     private SampleMediaAdapter mAdapter;
 
     public static SampleMediaListFragment newInstance() {
@@ -56,8 +54,6 @@ public class SampleMediaListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         ViewGroup viewGroup = (ViewGroup) inflater.inflate(R.layout.fragment_file_list, container, false);
         mFileListView = (ListView) viewGroup.findViewById(R.id.file_list_view);
-        mPlayerPath = (AppCompatButton) viewGroup.findViewById(R.id.player_path);
-        pathView = (EditText) viewGroup.findViewById(R.id.path_view);
         return viewGroup;
     }
 
@@ -77,7 +73,6 @@ public class SampleMediaListFragment extends Fragment {
                 VideoActivity.intentTo(activity, url, name);
             }
         });
-        mPlayerPath.setOnClickListener(v -> VideoActivity.intentTo(activity, pathView.getText().toString(), "test"));
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear0/prog_index.m3u8", "基础 音频 22.050Hz 立体声 @ 40 kbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8", "基础 400x300 @ 232 kbps");
         mAdapter.addItem("http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8", "基础 640x480 @ 650 kbps");
