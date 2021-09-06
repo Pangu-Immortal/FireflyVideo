@@ -58,8 +58,10 @@ class MainActivity : AppCompatActivity() {
                 .callback(object : FileSelectCallBack {
                     override fun onSuccess(results: List<FileSelectResult>?) {
                         results?.firstOrNull()?.filePath?.let {
+                            Log.d(TAG, "onSuccess: filePath= $it")
                             VideoActivity.intentTo(this@MainActivity, it, "test")
                         }
+                        Log.d(TAG, "onSuccess: uri= ${results?.firstOrNull()?.uri}")
                     }
 
                     override fun onError(e: Throwable?) {
