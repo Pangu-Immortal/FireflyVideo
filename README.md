@@ -3,6 +3,12 @@
 
 视频参数测试工具
 
+## 版本：1.0.2
+- 升级为最新版Android studio工程
+- 升级了ffmpeg版本
+- 升级了ExoPlayer版本
+- 适配Android 12版本
+
 ## 版本：1.0.1
 - 增加了本地视频的读取
 - 升级了ffmpeg版本
