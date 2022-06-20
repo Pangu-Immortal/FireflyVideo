@@ -1,7 +1,19 @@
 # FireflyVideo
-🔥在ijkplayer的基础上借鉴大量播放器内核优势进行封装
+🔥超稳定的视频播放器，全面测试了：
+OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、乐视、天语、360手机、摩托罗拉、联想三星、google pixel等机型。
 
-视频参数测试工具
+测试覆盖版本包括：
+（ Android4.1 - Android 12.0 ）
+
+视频播放参数--可视化调试工具
+
+## 版本：1.0.3
+- 升级为最新版Android studio工程
+- 新增本地视频文件的选取
+- 升级了ExoPlayer版本
+- 适配Android 12版本
+- 升级依赖库
+- 升级kotlin版本
 
 ## 版本：1.0.2
 - 升级为最新版Android studio工程
