@@ -14,7 +14,7 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
-rootProject.name = "VideoTools"
+rootProject.name = "FireflyVideo"
 include ':app'
 include ':ijkplayer-java'
 include ':ijkplayer'
