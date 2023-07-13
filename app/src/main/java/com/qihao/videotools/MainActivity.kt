@@ -69,13 +69,15 @@ class MainActivity : AppCompatActivity() {
             ) {
                 selectFile()//去选择文件
             } else {
-                requestPermissions(
-                    arrayOf(
-                        Manifest.permission.READ_EXTERNAL_STORAGE,
-                        Manifest.permission.WRITE_EXTERNAL_STORAGE
-                    ),
-                    REQUEST_CODE_PERMISSIONS
-                )
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    requestPermissions(
+                        arrayOf(
+                            Manifest.permission.READ_EXTERNAL_STORAGE,
+                            Manifest.permission.WRITE_EXTERNAL_STORAGE
+                        ),
+                        REQUEST_CODE_PERMISSIONS
+                    )
+                }
             }
         }
     }
@@ -100,6 +102,7 @@ class MainActivity : AppCompatActivity() {
         mPlayerPath = findViewById<View>(R.id.player_path) as AppCompatButton
         pathView = findViewById<View>(R.id.path_view) as EditText
         picSelect = findViewById<View>(R.id.selected_video) as ImageButton
+
         picSelect.setOnClickListener {
             Log.d(TAG, "onClick: video")
             requestWritePermission()
@@ -134,8 +137,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             REQUEST_CODE_PERMISSIONS -> {
-                if (Environment.isExternalStorageManager()) {
-                    selectFile()//选完文件以后跳转到裁剪界面
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                    if (Environment.isExternalStorageManager()) {
+                        selectFile()//选完文件以后跳转到裁剪界面
+                    }
+                }else{
+                    this.selectFile()//选完文件以后跳转到裁剪界面
                 }
             }
         }
