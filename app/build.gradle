@@ -8,16 +8,17 @@ static def releaseTime() {
 }
 
 android {
-    compileSdk 32
+    namespace 'com.qihao.videotools'
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.qihao.videotools"
 
         minSdk 21
-        targetSdk 32
+        targetSdk 33
 
         versionCode 20230202
-        versionName "1.0.4"
+        versionName "1.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

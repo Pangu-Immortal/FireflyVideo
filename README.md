@@ -9,7 +9,13 @@ OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、黑鲨、乐�
 
 ***
 
-
+## 版本：1.0.5
+- 升级为最新版Android studio工程
+- 适配Android 14版本
+- 升级依赖库
+- 新增传音海外版手机的适配
+- 升级kotlin版本
+- 升级gradle版本
 
 ## 版本：1.0.4
 - 升级为最新版Android studio工程
