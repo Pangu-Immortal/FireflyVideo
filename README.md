@@ -1,9 +1,9 @@
 # FireflyVideo
 🔥超稳定的视频播放器，全面测试了：
-OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、黑鲨、乐视、天语、360手机、摩托罗拉、联想三星、google pixel等机型。
+索尼、传音、OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、魅族、黑鲨、乐视、天语、360手机、摩托罗拉、联想、三星、google pixel等机型。全面兼容雷电，夜神，网易MUMU等模拟器。
 
 ### 测试覆盖版本包括：
-（ Android4.1 ~ Android 13.0 ）
+（ Android 4.0 ~ Android 14.0 ）
 
 视频播放参数--可视化调试工具
 
