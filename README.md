@@ -1,9 +1,9 @@
 # FireflyVideo
 🔥超稳定的视频播放器，全面测试了：
 索尼、传音、OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、魅族、黑鲨、乐视、天语、360手机、摩托罗拉、联想、三星、google pixel等机型。全面兼容雷电，夜神，网易MUMU等模拟器。
-
+![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
 ### 测试覆盖版本包括：
-（ Android 4.0 ~ Android 14.0 ）
+（ Android 4.0 ~ Android 16.0 ）
 
 视频播放参数--可视化调试工具
 
@@ -44,7 +44,7 @@
 - 升级了ffmpeg版本
 - 升级了ExoPlayer版本
 
-
+![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
 
 ***
 
@@ -57,7 +57,7 @@
 
 
 ***
-
+![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
 
 
 ## 🔗 实现原理参考🍎
