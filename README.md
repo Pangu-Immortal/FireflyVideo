@@ -1,4 +1,15 @@
 # FireflyVideo
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/Pangu-Immortal/FireflyVideo?style=for-the-badge&logo=github&color=yellow)](https://github.com/Pangu-Immortal/FireflyVideo)
+[![Forks](https://img.shields.io/github/forks/Pangu-Immortal/FireflyVideo?style=for-the-badge&logo=github&color=blue)](https://github.com/Pangu-Immortal/FireflyVideo/fork)
+[![访问量](https://komarev.com/ghpvc/?username=Pangu-Immortal-FireflyVideo&label=访问量&color=ff6b6b&style=for-the-badge)](https://github.com/Pangu-Immortal/FireflyVideo)
+
+![萌萌计数器](https://moe-counter.glitch.me/get/@FireflyVideo?theme=rule34)
+
+</div>
+
 🔥超稳定的视频播放器，全面测试了：
 索尼、传音、OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、魅族、黑鲨、乐视、天语、360手机、摩托罗拉、联想、三星、google pixel等机型。全面兼容雷电，夜神，网易MUMU等模拟器。
 ![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
@@ -97,3 +108,13 @@
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+---
+
+## ⭐ Star 趋势
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Pangu-Immortal/FireflyVideo&type=Date)](https://star-history.com/#Pangu-Immortal/FireflyVideo&Date)
+
+</div>
