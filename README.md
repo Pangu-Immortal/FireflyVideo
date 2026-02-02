@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <b>⭐ 点击 <a href="https://github.com/Pangu-Immortal/FireflyVideo">Star</a>，关注不迷路 ⭐</b>
+  <b>🌟 如果觉得有帮助，请点击 <a href="https://github.com/Pangu-Immortal/FireflyVideo/stargazers">Star</a> 支持一下，关注不迷路！🌟</b>
 </p>
 
 🔥超稳定的视频播放器，全面测试了：
