@@ -1,4 +1,9 @@
-![访客统计](https://count.getloli.com/get/@FireflyVideo?theme=rule34)
+<div align="center">
+
+![萌萌计数器](https://count.getloli.com/get/@FireflyVideo?theme=rule34)
+
+</div>
+
 
 # FireflyVideo
 
@@ -7,9 +12,6 @@
 [![Stars](https://img.shields.io/github/stars/Pangu-Immortal/FireflyVideo?style=for-the-badge&logo=github&color=yellow)](https://github.com/Pangu-Immortal/FireflyVideo)
 [![Forks](https://img.shields.io/github/forks/Pangu-Immortal/FireflyVideo?style=for-the-badge&logo=github&color=blue)](https://github.com/Pangu-Immortal/FireflyVideo/fork)
 [![访问量](https://komarev.com/ghpvc/?username=Pangu-Immortal-FireflyVideo&label=访问量&color=ff6b6b&style=for-the-badge)](https://github.com/Pangu-Immortal/FireflyVideo)
-
-![萌萌计数器](https://moe-counter.glitch.me/get/@FireflyVideo?theme=rule34)
-
 </div>
 
 🔥超稳定的视频播放器，全面测试了：
@@ -60,19 +62,13 @@
 ![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
 
 ***
-
-
 **注🌈**：
 1. 该项目仅供学习和参考，在真机上已经全面测试。
 2. 对一些系统应用的编解码，这个方案还是很有优势的。资源占用少，用户无感知，成功率高。
 3. 已经多个百万日活的App正式集成测试，可用于C端产品，可上架国内所有市场和 google 市场
 4. 可作为学习音视频播放器框架的一个案例。
-
-
 ***
 ![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
-
-
 ## 🔗 实现原理参考🍎
 
 - [FFmpeg源码 ffplay](http://ffmpeg.org/)
@@ -91,8 +87,6 @@
 - [饺子播放器 -> 原名：节操播放器](https://github.com/Jzvd/JZVideo)
 - [CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
 - [边播边缓存 AndroidVideoCache](https://github.com/danikula/AndroidVideoCache)
-
-
 ***
 
 ## 许可(LICENSE)✏️
@@ -130,8 +124,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
