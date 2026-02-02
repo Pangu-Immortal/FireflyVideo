@@ -8,6 +8,10 @@
 
 </div>
 
+<p align="center">
+  <b>⭐ 点击 <a href="https://github.com/Pangu-Immortal/FireflyVideo">Star</a>，关注不迷路 ⭐</b>
+</p>
+
 🔥超稳定的视频播放器，全面测试了：
 索尼、传音、OPPO、一加、vivo、IQOO、华为、荣耀、小米、红米、魅族、黑鲨、乐视、天语、360手机、摩托罗拉、联想、三星、google pixel等机型。全面兼容雷电，夜神，网易MUMU等模拟器。
 ![avatar](https://github.com/Pangu-Immortal/Pangu-Immortal/blob/main/getqrcode.png)
