@@ -1,3 +1,5 @@
+![访客统计](https://count.getloli.com/get/@FireflyVideo?theme=rule34)
+
 # FireflyVideo
 
 <div align="center">
@@ -118,3 +120,18 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=Pangu-Immortal/FireflyVideo&type=Date)](https://star-history.com/#Pangu-Immortal/FireflyVideo&Date)
 
 </div>
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
